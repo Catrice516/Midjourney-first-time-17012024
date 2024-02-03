@@ -8,7 +8,7 @@ from flask import Flask,request,render_template
 import time,requests,json
 app = Flask(__name__)
 headers = {
-    "Authorization" : "Token r8_4HYMLO8CcOgShANtQj3NifKEKRBC0eq0WNckT",
+    "Authorization" : "Token 4HYMLO8CcOgShANtQj3NifKEKRBC0eq0WNckT",
     "Content-Type" : "application/json"
 }
 @app.route("/",methods=["GET","POST"])
